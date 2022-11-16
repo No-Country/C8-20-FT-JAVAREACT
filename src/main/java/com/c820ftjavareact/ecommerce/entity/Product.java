@@ -9,7 +9,9 @@ import javax.persistence.*;
 @Table(name = "product")
 @Getter
 @Setter
-@Entity
+@Entity /*
+@SQLDelete(sql = "UPDATE product SET deleted = true WHERE id=?")
+@Where(clause = "deleted = false") */
 public class Product {
 
     @Id
