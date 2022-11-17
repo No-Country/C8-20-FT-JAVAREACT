@@ -1,5 +1,7 @@
 import styles from "./App.module.css";
 import * as component from "./components";
+import Carousel from './components/Home';
+import * as bootstrap from 'bootstrap';
 
 import burger1 from "./assets/images/burgers/burger1.png";
 import burger2 from "./assets/images/burgers/burger2.png";
@@ -27,7 +29,11 @@ function App() {
       <div className={styles.navbarContainer}>
         Navbar ----- Burguers ----- Snacks ----- Drinks
       </div>
-      <div className={styles.carruselContainer}>CARRUSEL</div>
+      {/* <div className={styles.carruselContainer}> */}
+      <div className={styles.carruselContainer}>
+        <Carousel />
+      </div>
+      {/* </div> */}
 
       <div className={styles.cardListContainer}>
         {burguerList.map((burger, index) => (

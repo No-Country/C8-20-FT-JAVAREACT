@@ -1,8 +1,7 @@
-import fries from '../../img/fries.png';
-import onions from '../../img/onionRings.png';
-import nuggets from '../../img/nuggets.png';
+import beer1 from '../../assets/images/Carousel/beer/beerCorona.png';
+import beer2 from '../../assets/images/Carousel/beer/beerBrahma.png';
+import beer3 from '../../assets/images/Carousel/beer/beerStella.png';
 import '../../css/carousel.css';
-
 
 function Carousel2(){
     return(
@@ -16,21 +15,21 @@ function Carousel2(){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={fries} class="d-block w-100 imgCarousel" alt="..." />
+      <img src={beer1} class="d-block w-100 imgCarousel" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5 className='nameBurger'> Cerveza Corona</h5>
-        <p className='descriptionCarousel'>Dos refrescantes cervezas Corona de 750ml</p>
+        <p className='descriptionCarousel'>Refrescante cerveza Corona de 750ml</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={onions} class="d-block w-100 imgCarousel" alt="..." />
+      <img src={beer2} class="d-block w-100 imgCarousel" alt="..." />
       <div class="carousel-caption d-none d-md-block nameAndDescriptionOfImg">
         <h5 className='nameBurger'>Cerveza Brahma</h5>
         <p className='descriptionCarousel'>Lata de cerveza Brahma 900ml</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={nuggets} class="d-block w-100 imgCarousel" alt="..." />
+      <img src={beer3} class="d-block w-100 imgCarousel" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5 className='nameBurger'>Cerveza Stella Artois</h5>
         <p className='descriptionCarousel'>Refrescante cerveza Stella Artois 610ml</p>

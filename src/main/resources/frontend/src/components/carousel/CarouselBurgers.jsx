@@ -1,6 +1,6 @@
-import burger1 from '../../img/burger1.png';
-import burger2 from '../../img/burger2.png';
-import burger3 from '../../img/burger3.png';
+import burger1 from '../../assets/images/Carousel/burgers/burger1.png';
+import burger2 from '../../assets/images/Carousel/burgers/burger2.png';
+import burger3 from '../../assets/images/Carousel/burgers/burger3.png';
 import '../../css/carousel.css';
 
 function Carousel(){

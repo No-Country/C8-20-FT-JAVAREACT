@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import Carousel from './carouse/Carousel';
-import Carousel2 from './carouse/Carousel2';
-import Carousel3 from './carouse/Carousel3';
-import beer from '../img/beer.png';
-import burger from '../img/burger.png';
-import snack from '../img/snack.png';
+import CarouselBurgers from './carousel/CarouselBurgers';
+import CarouselBeer from './carousel/CarouselBeer';
+import CarouselSnack from './carousel/CarouselSnack';
+import beer from '../assets/images/iconOptions/beer.png';
+import burger from '../assets/images/iconOptions/burger.png';
+import snack from '../assets/images/iconOptions/snack.png';
 import '../css/home.css';
 
 function Home(){
@@ -37,14 +37,14 @@ function Home(){
         <>
             <main>
                 <div className='containerOptions'>
-                    <div onClick={()=>{handlerClick()}} ><img src={burger}  /></div>
-                    <div onClick={()=>{handlerClick3()}} ><img src={snack} /></div>
-                    <div onClick={()=>{handlerClick2()}} ><img src={beer} /></div>
+                    <div onClick={()=>{handlerClick()}}  ><img src={burger}  /></div>
+                    <div onClick={()=>{handlerClick2()}} ><img src={snack} /></div>
+                    <div onClick={()=>{handlerClick3()}} ><img src={beer} /></div>
                 </div>
                 <section>
-                    {option && <Carousel />}
-                    {option2 && <Carousel2 />}
-                    {option3 && <Carousel3 />}
+                    {option && <CarouselBurgers />}
+                    {option2 && <CarouselSnack />}
+                    {option3 && <CarouselBeer />}
                 </section>
             </main>
         </>
