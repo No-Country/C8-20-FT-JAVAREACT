@@ -27,13 +27,7 @@
 }
 
 .carruselContainer {
-    display: flex;
-    justify-content: center;
-    height: 50vh;
-    width: 70vw;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(144, 141, 141);
+    width: 80%;
 }
 
 .cardListContainer {
