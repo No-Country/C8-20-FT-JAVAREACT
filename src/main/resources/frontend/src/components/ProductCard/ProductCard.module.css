@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     /* height: 35vh; */
-    height: 20vw;
+    height: 21vw;
     width: 18vw;
     position: absolute;
     left: 0px;
@@ -59,7 +59,7 @@
     width: 17vw;    
     background: transparent;
     position: absolute;    
-    bottom: 10vw;
+    bottom: 12vw;
     z-index: 2;
     transition: 0.2s;
     /* background-color: rgb(48, 48, 48);
