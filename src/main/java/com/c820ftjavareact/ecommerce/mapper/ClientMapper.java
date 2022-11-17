@@ -14,7 +14,14 @@ public class ClientMapper {
 
     public ClientDTORegister clientEntityDTOBasic(Client client){
         ClientDTORegister clientDTORegister = new ClientDTORegister();
+        clientDTORegister.setId(client.getId());
         clientDTORegister.setName(client.getName());
+        clientDTORegister.setSurname(client.getSurname());
+        clientDTORegister.setEmail(client.getEmail());
+        clientDTORegister.setAddress(client.getAddress());
+        clientDTORegister.setTelephone(client.getTelephone());
+        clientDTORegister.setPassword(client.getPassword());
+
         return  clientDTORegister;
     }
 

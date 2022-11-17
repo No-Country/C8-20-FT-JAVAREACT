@@ -3,21 +3,23 @@ package com.c820ftjavareact.ecommerce.service;
 
 import com.c820ftjavareact.ecommerce.dto.ClientDTORegister;
 import javassist.NotFoundException;
-import org.springframework.stereotype.Service;
+import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
 public interface ClientService {
 
+
+
     List<ClientDTORegister> getClientListRegisters();
 
-    ClientDTORegister getClientById(int id);
+    ClientDTORegister getClientById(Long id);
 
     List<ClientDTORegister> getClient();
 
-    ClientDTORegister updateClient(ClientDTORegister dto , int id) throws NotFoundException;
+    ClientDTORegister updateClient(ClientDTORegister dto , Long id) throws NotFoundException;
+    void deleteClient(Long id) throws NotFoundException;
 
-    void deleteClient(int id) throws NotFoundException;
 
     ClientDTORegister createClient(ClientDTORegister ClientDTO);
 
