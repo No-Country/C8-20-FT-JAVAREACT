@@ -26,15 +26,9 @@ function App() {
   return (
     <div className={styles.mainContainer}>
       <component.Title />
-      {/* <div className={styles.navbarContainer}>
-        Navbar ----- Burguers ----- Snacks ----- Drinks
-      </div> */}
-      {/* <div className={styles.carruselContainer}> */}
       <div className={styles.carruselContainer}>
         <Carousel />
       </div>
-      {/* </div> */}
-
       <div className={styles.cardListContainer}>
         {burguerList.map((burger, index) => (
           <component.ProductCard img={burger} key={index} />
