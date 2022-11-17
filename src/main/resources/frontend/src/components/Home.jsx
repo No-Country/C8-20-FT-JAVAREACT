@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Carousel from './Carousel';
-import Carousel2 from './Carousel2';
-import Carousel3 from './Carousel3';
+import Carousel from './carouse/Carousel';
+import Carousel2 from './carouse/Carousel2';
+import Carousel3 from './carouse/Carousel3';
 import beer from '../img/beer.png';
 import burger from '../img/burger.png';
 import snack from '../img/snack.png';

@@ -1,10 +1,9 @@
-import fries from '../img/fries.png';
-import onions from '../img/onionRings.png';
-import nuggets from '../img/nuggets.png';
-import '../css/carousel.css';
+import burger1 from '../../img/burger1.png';
+import burger2 from '../../img/burger2.png';
+import burger3 from '../../img/burger3.png';
+import '../../css/carousel.css';
 
-
-function Carousel2(){
+function Carousel(){
     return(
         <>
         <div className="containerCarousel">
@@ -16,24 +15,24 @@ function Carousel2(){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={fries} class="d-block w-100 imgCarousel" alt="..." />
+      <img src={burger1} class="d-block w-100 imgCarousel" alt="..." />
       <div class="carousel-caption d-none d-md-block">
-        <h5 className='nameBurger'> Cerveza Corona</h5>
-        <p className='descriptionCarousel'>Dos refrescantes cervezas Corona de 750ml</p>
+        <h5 className='nameBurger'> Extra Clasica</h5>
+        <p className='descriptionCarousel'>Lechuga, tomate, cebolla, queso cheddar, pepinillos</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={onions} class="d-block w-100 imgCarousel" alt="..." />
+      <img src={burger2} class="d-block w-100 imgCarousel" alt="..." />
       <div class="carousel-caption d-none d-md-block nameAndDescriptionOfImg">
-        <h5 className='nameBurger'>Cerveza Brahma</h5>
-        <p className='descriptionCarousel'>Lata de cerveza Brahma 900ml</p>
+        <h5 className='nameBurger'>Especial Cheddar</h5>
+        <p className='descriptionCarousel'>lechuga, tomate, doble cheddar, salsa especial</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={nuggets} class="d-block w-100 imgCarousel" alt="..." />
+      <img src={burger3} class="d-block w-100 imgCarousel" alt="..." />
       <div class="carousel-caption d-none d-md-block">
-        <h5 className='nameBurger'>Cerveza Stella Artois</h5>
-        <p className='descriptionCarousel'>Refrescante cerveza Stella Artois 610ml</p>
+        <h5 className='nameBurger'>Chicken Burger</h5>
+        <p className='descriptionCarousel'>lechuga, tomate, queso cheddar, panceta especial, salsa BBQ</p>
       </div>
     </div>
   </div>
@@ -51,4 +50,4 @@ function Carousel2(){
     )
 }
 
-export default Carousel2;
+export default Carousel;
