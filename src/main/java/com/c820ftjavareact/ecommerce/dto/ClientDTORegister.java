@@ -9,6 +9,9 @@ import lombok.Setter;
 public class ClientDTORegister {
 
     @NotNull
+    private long id;
+
+    @NotNull
     private String password;
 
     @NotNull
