@@ -1,8 +1,12 @@
 package com.c820ftjavareact.ecommerce.mapper;
 
+import com.c820ftjavareact.ecommerce.dto.ProductBasicDTO;
 import com.c820ftjavareact.ecommerce.dto.ProductDTO;
 import com.c820ftjavareact.ecommerce.entity.Product;
 import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
 public class ProductMapper {
@@ -28,4 +32,24 @@ public class ProductMapper {
 
         return  productDTO;
     }
+
+    //listar product
+    public List<ProductBasicDTO> productEntityList2DTO(List<Product> products){
+        List<ProductBasicDTO>productBasicDTOS = new ArrayList<>();
+        for (Product product : products){
+            productBasicDTOS.add(this.productEntity2DTOBasic(product));
+        }
+        return productBasicDTOS;  //categoriaMapper
+
+    }
+
+    public ProductBasicDTO productEntity2DTOBasic(Product product) {
+        ProductBasicDTO productBasicDTO = new ProductBasicDTO();
+        productBasicDTO.setImageUrl(product.getImageUrl());
+        productBasicDTO.setTitle(product.getTitle());
+        productBasicDTO.setPrice(product.getPrice());
+        return productBasicDTO;
+    }
+
+
 }
