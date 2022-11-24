@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Marhey:wght@400&display=swap');
+@import './variables.css';
 body {
   margin: 0;
   padding: 0;
