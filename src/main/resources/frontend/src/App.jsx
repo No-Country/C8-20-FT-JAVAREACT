@@ -2,6 +2,7 @@ import styles from "./App.module.css";
 import * as component from "./components";
 import Carousel from "./components/Home";
 import * as bootstrap from "bootstrap";
+import Search from "./components/inputSearch/InputGet";
 
 import burger1 from "./assets/images/burgers/burger1.png";
 import burger2 from "./assets/images/burgers/burger2.png";
@@ -25,6 +26,7 @@ function App() {
   ];
   return (
     <div className={styles.mainContainer}>
+      <Search />
       <component.Title />
       <div className={styles.carruselContainer}>
         <Carousel />
