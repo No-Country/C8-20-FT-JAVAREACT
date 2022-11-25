@@ -21,6 +21,7 @@ public class ProductDTO {
     @NotNull
     private String imageUrl;
     private String note;
-    private Stock stock;
+   // private Stock stock;
+    private Integer stock;
 
 }

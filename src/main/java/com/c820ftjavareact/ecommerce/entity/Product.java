@@ -31,5 +31,5 @@ public class Product {
     private String imageUrl;
 
     private String note;
-
+    private Integer stock; //add- stock
 }
