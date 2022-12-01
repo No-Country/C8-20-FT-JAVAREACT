@@ -12,19 +12,19 @@
   <li>Jose Luis Santiago Morales </li>
   <p >
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,js,html,css,react" />
+    <img src="https://skillicons.dev/icons?i=git,js,html,css,react,vscode" />
   </a>
 </p>
   <li>Yhanahi Rosenthal </li>
   <p >
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,js,html,css,react" />
+    <img src="https://skillicons.dev/icons?i=git,js,html,css,react,vscode" />
   </a>
 </p>
   <li>Eric Hernan Bellezza </li>
   <p >
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,js,html,css,react" />
+    <img src="https://skillicons.dev/icons?i=git,js,html,css,react,vscode" />
   </a>
 </p>
 </ul>
@@ -34,19 +34,19 @@
   <li>Fernando Marina </li>
     <p>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=git,java,mysql" />
+        <img src="https://skillicons.dev/icons?i=git,java,mysql,spring,idea" />
       </a>
     </p>
   <li>Brian Nieto </li>
   <p >
     <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=git,java,mysql"  />
+      <img src="https://skillicons.dev/icons?i=git,java,mysql,spring,idea"  />
     </a>
   </p>
   <li>Maite Guadalupe Mejia </li>
   <p>
     <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=git,java,mysql"  />
+      <img src="https://skillicons.dev/icons?i=git,java,mysql,spring,idea"  />
     </a>
   </p>
 </ul>
