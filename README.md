@@ -16,13 +16,13 @@
   </a>
 </p>
   <li>Yhanahi Rosenthal </li>
-  <p align="center">
+  <p >
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,js,html,css,react" />
   </a>
 </p>
   <li>Eric Hernan Bellezza </li>
-  <p align="center">
+  <p >
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,js,html,css,react" />
   </a>
@@ -38,13 +38,13 @@
       </a>
     </p>
   <li>Brian Nieto </li>
-  <p align="center">
+  <p >
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=git,java,mysql"  />
     </a>
   </p>
   <li>Maite Guadalupe Mejia </li>
-  <p align="center">
+  <p>
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=git,java,mysql"  />
     </a>
