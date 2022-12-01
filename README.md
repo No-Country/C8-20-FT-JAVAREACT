@@ -1,4 +1,4 @@
-<h1 aling="center">C8-20-FT-JAVAREACT -- E-commerce de comida</>
+<h1 align="center">C8-20-FT-JAVAREACT -- E-commerce de comida</>
 
 <h2>Descripción</h2>
 
