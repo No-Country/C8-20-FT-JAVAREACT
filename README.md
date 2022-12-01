@@ -53,7 +53,7 @@
   </p>
 </ul>
 
-<h2>Link Deploy <a href="https://c8-20-ft-javareact-1ze1z4o40-villanos.vercel.app/">Deploy</a></h2>
+<h2>Link Deploy : <a href="https://c8-20-ft-javareact-1ze1z4o40-villanos.vercel.app/">Deploy</a></h2>
 
 
 
