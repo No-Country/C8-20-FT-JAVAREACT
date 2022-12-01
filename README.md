@@ -9,9 +9,24 @@
 
 <h3>Front-End</h3>
 <ul>
-  <li>Jose Luis Santiago Morales </li>[![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)
-  <li>Yhanahi Rosenthal </li>[![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)
-  <li>Eric Hernan Bellezza </li> [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)
+  <li>Jose Luis Santiago Morales </li>
+  <p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+  </a>
+</p>
+  <li>Yhanahi Rosenthal </li>
+  <p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+  </a>
+</p>
+  <li>Eric Hernan Bellezza </li>
+  <p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,js,html,css,react" />
+  </a>
+</p>
 </ul>
 
 <h3>Back-End</h3>
