@@ -9,7 +9,7 @@
 
 <h3>Front-End</h3>
 <ul>
-  <li>Jose Luis Santiago Morales</li>
+  <li>Jose Luis Santiago Morales <i class="fa-brands fa-html5"></i></li><i class="fa-brands fa-html5"></i>
   <li>Yhanahi Rosenthal</li>
   <li>Eric Hernan Bellezza</li>
 </ul>
