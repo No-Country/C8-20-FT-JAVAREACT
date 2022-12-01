@@ -10,15 +10,15 @@
 <h3>Front-End</h3>
 <ul>
   <li>Jose Luis Santiago Morales </li>
-  <p align="center">
+  <p >
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img src="https://skillicons.dev/icons?i=git,js,html,css,react" />
   </a>
 </p>
   <li>Yhanahi Rosenthal </li>
   <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img src="https://skillicons.dev/icons?i=git,js,html,css,react" />
   </a>
 </p>
   <li>Eric Hernan Bellezza </li>
@@ -31,9 +31,24 @@
 
 <h3>Back-End</h3>
 <ul>
-  <li>Fernando Marina </li> [![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)
-  <li>Brian Nieto </li>[![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)
-  <li>Maite Guadalupe Mejia </li>[![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)
+  <li>Fernando Marina </li>
+    <p>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=git,java,mysql" />
+      </a>
+    </p>
+  <li>Brian Nieto </li>
+  <p align="center">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=git,java,mysql"  />
+    </a>
+  </p>
+  <li>Maite Guadalupe Mejia </li>
+  <p align="center">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=git,java,mysql"  />
+    </a>
+  </p>
 </ul>
 
 
