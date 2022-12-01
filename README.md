@@ -1,4 +1,3 @@
-<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 <h1 aling="center">C8-20-FT-JAVAREACT -- E-commerce de comida</>
 
 <h2>Integrantes</h2>
@@ -10,16 +9,16 @@
 
 <h3>Front-End</h3>
 <ul>
-  <li>Jose Luis Santiago Morales <i class="fa-brands fa-html5"></i></li><i class="fa-brands fa-html5"></i>
-  <li>Yhanahi Rosenthal</li>
-  <li>Eric Hernan Bellezza</li>
+  <li>Jose Luis Santiago Morales [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)</li>
+  <li>Yhanahi Rosenthal [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)</li>
+  <li>Eric Hernan Bellezza [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)</li>
 </ul>
 
 <h3>Back-End</h3>
 <ul>
-  <li>Fernando Marina</li>
-  <li>Brian Nieto</li>
-  <li>Maite Guadalupe Mejia</li>
+  <li>Fernando Marina [![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)</li>
+  <li>Brian Nieto [![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)</li>
+  <li>Maite Guadalupe Mejia [![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)</li>
 </ul>
 
 
