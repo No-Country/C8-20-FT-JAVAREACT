@@ -9,16 +9,16 @@
 
 <h3>Front-End</h3>
 <ul>
-  <li>Jose Luis Santiago Morales [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)</li>
-  <li>Yhanahi Rosenthal [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)</li>
-  <li>Eric Hernan Bellezza [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)</li>
+  <li>Jose Luis Santiago Morales </li>[![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)
+  <li>Yhanahi Rosenthal </li>[![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)
+  <li>Eric Hernan Bellezza </li> [![My Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)
 </ul>
 
 <h3>Back-End</h3>
 <ul>
-  <li>Fernando Marina [![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)</li>
-  <li>Brian Nieto [![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)</li>
-  <li>Maite Guadalupe Mejia [![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)</li>
+  <li>Fernando Marina </li> [![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)
+  <li>Brian Nieto </li>[![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)
+  <li>Maite Guadalupe Mejia </li>[![My Skills](https://skills.thijs.gg/icons?i=java,mysql)](https://skills.thijs.gg)
 </ul>
 
 
