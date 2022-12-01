@@ -20,8 +20,6 @@ public class ClientController {
     @Autowired
     private ClientService clientService;
 
-
-
     @GetMapping(value = "/clients")
     public ResponseEntity<List<ClientDTORegister>> getClient(){
         List<ClientDTORegister> clientDTORegisters = clientService.getClientListRegisters();
