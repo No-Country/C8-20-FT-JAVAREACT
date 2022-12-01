@@ -1,3 +1,4 @@
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 <h1 aling="center">C8-20-FT-JAVAREACT -- E-commerce de comida</>
 
 <h2>Integrantes</h2>
