@@ -1,0 +1,26 @@
+.searchBox{
+    width: 20rem;
+    height: 1.8rem;
+    border: solid rgba(243, 243, 45, 0);
+    background-color: rgba(240, 248, 255, 0.511);
+    border-radius: 0.9rem;
+    color: white;
+    
+}
+
+.searchingButton{
+    position:absolute;
+    margin: -0.3rem 0 0 -2.2rem;
+    border-color: rgba(91, 91, 91, 0);
+    border-radius: 100%;
+    width: 2.2rem;
+    height: 2rem;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.MGlass{
+    width: 1.2rem;
+    height: 1.2rem;
+    filter: invert();
+}

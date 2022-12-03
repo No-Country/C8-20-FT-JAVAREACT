@@ -2,6 +2,8 @@ import styles from "./App.module.css";
 import * as component from "./components";
 import Carousel from "./components/Home";
 import * as bootstrap from "bootstrap";
+import Search from './components/inputSearch/InputGet';
+import Login from './components/modalLogin/Login';
 
 import burger1 from "./assets/images/burgers/burger1.png";
 import burger2 from "./assets/images/burgers/burger2.png";
@@ -10,6 +12,7 @@ import burger4 from "./assets/images/burgers/burger4.png";
 import burger5 from "./assets/images/burgers/burger5.png";
 import burger6 from "./assets/images/burgers/burger6.png";
 import burger7 from "./assets/images/burgers/burger7.png";
+import { useState } from "react";
 // import burger8 from "./assets/images/burgers/burger8.png";
 // import burger9 from "./assets/images/burgers/burger9.png";
 
@@ -23,8 +26,19 @@ function App() {
     burger6,
     burger7,
   ];
+
+  const [login, setLogin] = useState(false)
+
   return (
     <div className={styles.mainContainer}>
+      <div className="navbar">
+        <div>
+          <button onClick={()=>{setLogin(true)}} >Log in</button>
+        </div>
+          navbar
+          <Search />
+      </div>
+      {login && <Login setLogin={setLogin} />}
       <component.Title />
       <div className={styles.carruselContainer}>
         <Carousel />
