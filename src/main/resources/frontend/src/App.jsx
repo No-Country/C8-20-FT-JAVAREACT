@@ -50,13 +50,13 @@ function App() {
         </div>
         <div className={styles.gradientLayer}>
           <div className={styles.navbarContainer}>
-            <div className={styles.burgerIconContainer}>
+            {/* <div className={styles.burgerIconContainer}>
               <img
                 className={styles.burgerIconImage}
                 src={burgerIcon}
                 alt="burgerIcon"
               ></img>
-            </div>
+            </div> */}
             <div className={styles.titleContainer}>
               <component.Title />
             </div>

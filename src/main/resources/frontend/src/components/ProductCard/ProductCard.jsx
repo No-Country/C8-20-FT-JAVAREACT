@@ -1,8 +1,10 @@
 import styles from "./ProductCard.module.css";
 
+import { motion } from "framer-motion";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import "animate.css";
+import { useEffect, useState } from "react";
 
 const swalert = withReactContent(Swal);
 export const ProductCard = ({ img }) => {
@@ -29,6 +31,27 @@ export const ProductCard = ({ img }) => {
     " animate__lightSpeedOutRight",
   ];
   const animation = 3;
+
+  const [isOpen, setIsopen] = useState(false);
+  const [scale, setScale] = useState(0.8);
+  const [scale2, setScale2] = useState(0.1);
+  const [valueY1, setvalueY1] = useState(0);
+  const [valueY2, setvalueY2] = useState(0);
+
+  useEffect(() => {
+    console.log("isOpen > ", isOpen);
+    if (isOpen) {
+      setScale(0.5);
+      setScale2(1);
+      setvalueY1(-30);
+      setvalueY2(-75);
+    } else {
+      setScale(1);
+      setScale2(0.1);
+      setvalueY1(0);
+      setvalueY2(-100);
+    }
+  }, [isOpen]);
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -61,8 +84,28 @@ export const ProductCard = ({ img }) => {
 
   return (
     <div className={styles.cardMainContainer}>
-      <div id="imageContainer" className={styles.imageContainer}>
-        <img src={img} alt="burger1"></img>
+      <div className={styles.imageDetailContainer}>
+        <motion.div
+          animate={{ y: valueY1, scale: scale }}
+          id="imageContainer"
+          className={styles.imageContainer}
+        >
+          <img
+            onClick={() => setIsopen(!isOpen)}
+            className={styles.cardImage}
+            src={img}
+            alt="burger1"
+          ></img>
+        </motion.div>
+        <motion.div
+          animate={{ y: valueY2, scale: scale2 }}
+          className={styles.detailContainer}
+        >
+          <p>
+            Una jugosa hamburguesa de 225gr. de carne Angus, pepinillos,
+            lechuga, picante.
+          </p>
+        </motion.div>
       </div>
       <div id="solidContainer" className={styles.solidContainer}>
         <div className={styles.burgerName}>Kingpin</div>
