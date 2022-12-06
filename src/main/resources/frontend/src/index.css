@@ -21,3 +21,10 @@ code {
   justify-content: space-around;
 }
 
+.navbar .login{
+  background-color: black;
+  color: rgb(255, 251, 0);
+  border-color: white;
+  border-radius: 1rem;
+}
+

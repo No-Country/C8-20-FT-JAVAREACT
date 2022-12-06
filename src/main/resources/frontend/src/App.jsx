@@ -31,9 +31,10 @@ function App() {
 
   return (
     <div className={styles.mainContainer}>
+      {/* las clases css de navbar y login estan en index.css provisorio  */}
       <div className="navbar">
         <div>
-          <button onClick={()=>{setLogin(true)}} >Log in</button>
+          <button onClick={()=>{setLogin(true)}} className='login' >Log in</button>
         </div>
           navbar
           <Search />
