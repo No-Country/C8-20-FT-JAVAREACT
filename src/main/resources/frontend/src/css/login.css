@@ -1,0 +1,118 @@
+.containerModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.522);
+    width: 100%;
+    height: 40rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+.containerModal .close{
+    color: white;
+    position: absolute;
+    /* margin: -25rem -19rem 0 0; */
+    margin: -5rem 0 0 15rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 11;
+    cursor: pointer;
+    border: solid white;
+    width: 1.8rem;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.containerModal .close:hover{
+    font-size: 1.1rem;
+    width: 2rem;
+}
+
+.modalContent{
+    height: 30rem;
+    border: solid rgb(234, 223, 11);
+    border-radius: 2rem;
+    border-width: thin;
+    box-shadow: rgb(234, 223, 11) 0 0 0.5rem;
+    padding: 7rem;
+    margin-top: -2rem;
+    background-image: url('../assets/images/backgroundLogin.png');
+    -webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-top {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+  }
+  @keyframes scale-up-top {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+  }
+  
+.modalTitle{
+    margin-top: -2rem;
+    color: white;
+}
+
+.modalEmailContainer{
+    margin: 3rem 0 0 0;
+    color: white;
+}
+
+.modalEmailContainer input{
+    width: 100%;
+}
+
+.modalPasswordContainer{
+    color: white;
+    margin: 3rem 0 0 0;
+}
+
+.modalPasswordContainer input{
+    width: 100%;
+}
+
+.LoginButton{
+    margin: 3rem 0 0 1.5rem;
+    border-radius: 0.5rem;
+    border-color: rgb(234, 223, 11);
+    width: 10rem;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(234, 223, 11);
+    transition: 0.3s;
+}
+
+.LoginButton:hover{
+    background-color: rgba(27, 27, 27, 0.678)
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+

@@ -1,0 +1,87 @@
+.searchBox{
+    width: 20rem;
+    height: 1.8rem;
+    border: solid rgba(243, 243, 45, 0);
+    background-color: rgba(240, 248, 255, 0.511);
+    border-radius: 0.9rem;
+    color: white;
+    
+}
+
+.searchingButton{
+    position:absolute;
+    margin: -0.3rem 0 0 -2.2rem;
+    border-color: rgba(91, 91, 91, 0);
+    border-radius: 100%;
+    width: 2.2rem;
+    height: 2rem;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.MGlass{
+    width: 1.2rem;
+    height: 1.2rem;
+    filter: invert();
+}
+
+.containerSearch{
+    z-index: 999;
+    position: absolute;
+    width: 20rem;
+    height: 25rem;
+    overflow: scroll;
+}
+
+.containerSearch::-webkit-scrollbar{
+    background-color: rgba(255, 255, 255, 0);
+    width: 0.3rem;
+    overflow-x: hidden;
+}
+
+.containerSearch::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 251, 0);
+    overflow-x: hidden;
+}
+
+.containerSearch::-webkit-scrollbar-corner{
+    overflow-x: hidden;
+}
+
+.suggestionContainer{
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.suggestionContainer .name{
+    color: white;
+    margin: auto;
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.suggestionContainer .description{
+    color: white;
+    width: 30%;
+    margin: auto;
+    font-size: 60%;
+}
+
+.suggestionContainer img{
+    width: 30%;
+    height: 6rem;
+}
+
+.suggestionCard{
+    display: flex;
+    flex-direction: row;
+    border: solid rgba(255, 255, 255, 0.529);
+    border-width: thin;
+    border-radius: 0.3rem;
+    transition: 0.2s;
+}
+
+.suggestionCard:hover{
+    border: solid rgb(255, 255, 255);
+}

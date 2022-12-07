@@ -17,3 +17,15 @@ code {
     monospace;
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  gap: 9rem;
+}
+
+.navbar .login{
+  background-color: black;
+  color: rgb(255, 251, 0);
+  border-color: white;
+  border-radius: 1rem;
+}
