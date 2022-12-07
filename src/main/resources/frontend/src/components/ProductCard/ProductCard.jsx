@@ -7,7 +7,7 @@ import "animate.css";
 import { useEffect, useState } from "react";
 
 const swalert = withReactContent(Swal);
-export const ProductCard = ({ img }) => {
+export const ProductCard = ({ id, description, imageUrl, price, title }) => {
   const animatedEntrances = [
     " animate__flipInX",
     " animate__rotateIn",
@@ -93,23 +93,20 @@ export const ProductCard = ({ img }) => {
           <img
             onClick={() => setIsopen(!isOpen)}
             className={styles.cardImage}
-            src={img}
-            alt="burger1"
+            src={imageUrl}
+            alt={title}
           ></img>
         </motion.div>
         <motion.div
           animate={{ y: valueY2, scale: scale2 }}
           className={styles.detailContainer}
         >
-          <p>
-            Una jugosa hamburguesa de 225gr. de carne Angus, pepinillos,
-            lechuga, picante.
-          </p>
+          <p>{description}</p>
         </motion.div>
       </div>
       <div id="solidContainer" className={styles.solidContainer}>
-        <div className={styles.burgerName}>Kingpin</div>
-        <div className={styles.burgerPrice}>$8.45</div>
+        <div className={styles.burgerName}>{title}</div>
+        <div className={styles.burgerPrice}>${price}</div>
         <button className={styles.addButton} onClick={handleClick}>
           Añadir al carrito
         </button>
