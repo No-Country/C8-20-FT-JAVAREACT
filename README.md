@@ -60,7 +60,7 @@
  <p> </p>
  
 
-<h2>Link Deploy : <a href="https://c8-20-ft-javareact-odzflhu42-villanos.vercel.app"/>Deploy</a></h2>
+<h2>Link Deploy : <a href="[https://c8-20-ft-javareact-odzflhu42-villanos.vercel.app](https://c8-20-ft-javareact-gldu44ase-villanos.vercel.app/)"/>Deploy</a></h2>
 
 
 
