@@ -49,10 +49,11 @@
 
 <h2>Tecnologias usadas</h2>
   <ul>
-    <li>* React Js </li>
-    <li>* Bootstrap</li>
-    <li>* Spring boot</li>
-    <li>* MySql</li>
+    <li>React Js </li>
+    <li>Bootstrap</li>
+    <li>Spring boot</li>
+    <li>Spring Security</li>
+    <li>MySql</li>
   </ul>
   
  <h2> Accesos </h2>
