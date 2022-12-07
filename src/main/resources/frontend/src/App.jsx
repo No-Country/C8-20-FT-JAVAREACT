@@ -4,6 +4,8 @@ import Carousel from "./components/Home";
 import * as bootstrap from "bootstrap";
 import Search from './components/inputSearch/InputGet';
 import Login from './components/modalLogin/Login';
+import cartImg from './assets/images/iconOptions/cart.png';
+import Cart from './components/cart/Cart';
 
 import burger1 from "./assets/images/burgers/burger1.png";
 import burger2 from "./assets/images/burgers/burger2.png";
@@ -27,7 +29,11 @@ function App() {
     burger7,
   ];
 
+
   const [login, setLogin] = useState(false)
+  const [close, setClose] = useState(false)
+
+ 
 
   return (
     <div className={styles.mainContainer}>
@@ -38,7 +44,11 @@ function App() {
         </div>
           navbar
           <Search />
+          <div>
+          <button className="buttonCartOpen" onClick={()=>{setClose(true)}}><img src={cartImg} /></button>
+        </div>
       </div>
+      {close && <Cart setClose={setClose} />}
       {login && <Login setLogin={setLogin} />}
       <component.Title />
       <div className={styles.carruselContainer}>
