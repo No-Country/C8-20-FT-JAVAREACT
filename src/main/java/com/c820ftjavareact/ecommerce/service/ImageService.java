@@ -1,7 +1,6 @@
 package com.c820ftjavareact.ecommerce.service;
-
-//import com.c820ftjavareact.ecommerce.entity.Image;
-//import com.c820ftjavareact.ecommerce.repository.ImageRepository;
+import com.c820ftjavareact.ecommerce.entity.Image;
+import com.c820ftjavareact.ecommerce.repository.ImageRepository;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,13 +11,13 @@ import java.util.List;
 import java.util.Optional;
 
 
-//@Service
-//@Transactional
+@Service
+@Transactional
 public class ImageService {
-  //  @Getter
-  //  @Setter
-   // @Autowired
- /*   ImageRepository imageRepository;
+    @Getter
+    @Setter
+    @Autowired
+    ImageRepository imageRepository;
 
     public List<Image> list(){
         return imageRepository.findByOrderById();
@@ -34,5 +33,5 @@ public class ImageService {
     }
     public boolean exists(int id){
         return imageRepository.existsById(id);
-    }    */
+    }
 }

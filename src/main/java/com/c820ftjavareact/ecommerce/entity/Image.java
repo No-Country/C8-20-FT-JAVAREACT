@@ -23,6 +23,6 @@ public class Image {
     private String imagenId;
 
 
-
-
+    public Image(String original_filename, String url, String public_id) {
+    }
 }

@@ -2,6 +2,8 @@ package com.c820ftjavareact.ecommerce.service;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -12,6 +14,8 @@ import java.util.HashMap;
 import java.util.Map;
 @Service
 public class CloudinaryService {
+    @Getter
+    @Setter
     Cloudinary cloudinary;
     private Map<String, String> valuesMap = new HashMap<>();
 
