@@ -1,0 +1,13 @@
+.cardListContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+    width: 90vw;
+    min-height: 70vh;
+    background-image: linear-gradient(to bottom, #000000, #080708, #0e0e0f, #131414, #171818, #1b1c1c, #202121, #242525, #2a2b2b, #303131, #373737, #3d3d3d);
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: rgb(144, 141, 141); */
+}
