@@ -1,17 +1,35 @@
 import styles from "./App.module.css";
 import * as component from "./components";
 import Carousel from "./components/Home";
-
 import * as bootstrap from "bootstrap";
-
+import Search from './components/inputSearch/InputGet';
+import Login from './components/modalLogin/Login';
+import cartImg from './assets/images/iconOptions/cart.png';
+import Cart from './components/cart/Cart';
+import { useState } from "react";
 import cart from "./assets/images/yellow-cart.svg";
 import blackwood from "./assets/images/blackwood.jpg";
 import tomate from "./assets/images/tomate.png";
 import vegetales from "./assets/images/vegetales.png";
 
 function App() {
+
+  const [login, setLogin] = useState(false)
+  const [close, setClose] = useState(false)
+
   return (
     <div className={styles.mainContainer}>
+       <div className="navbar">
+        <div>
+          <button onClick={()=>{setLogin(true)}} className='login' >Log in</button>
+        </div>
+          <Search />
+          <div>
+          <button className="buttonCartOpen" onClick={()=>{setClose(true)}}><img src={cartImg} /></button>
+        </div>
+      </div>
+      {close && <Cart setClose={setClose} />}
+      {login && <Login setLogin={setLogin} />}
       <div
         className={styles.topContainer}
         style={{
