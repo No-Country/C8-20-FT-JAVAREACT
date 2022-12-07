@@ -1,7 +1,7 @@
 <h1 align="center">#C8-20-FT-JAVAREACT -- Tienda de Comida VillainBurger </h1>
 
 <p>
- <img src="[https://drive.google.com/file/d/1cc0NfP6tVO2VrKQuHC0SkESrh_nTvweS/view?usp=share_link](https://drive.google.com/file/d/1cc0NfP6tVO2VrKQuHC0SkESrh_nTvweS/view?usp=share_link)" width="100%" />
+ <img src="https://photos.app.goo.gl/9AmKhS3mxi1s2pav6" width="100%" />
 </p>
 
 <h2>Descripción</h2>
