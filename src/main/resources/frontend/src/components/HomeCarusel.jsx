@@ -8,7 +8,7 @@ import burger from "../assets/images/iconOptions/burger.png";
 import snack from "../assets/images/iconOptions/snack.png";
 import "../css/home.css";
 
-function Home() {
+function HomeCarusel() {
   const [option, setOption] = useState(true);
   const [option2, setOption2] = useState(false);
   const [option3, setOption3] = useState(false);
@@ -67,4 +67,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeCarusel;
