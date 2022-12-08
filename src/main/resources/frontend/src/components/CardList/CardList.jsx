@@ -1,12 +1,15 @@
 import * as component from "../";
 import styles from "./CardList.module.css";
-
+import { Context } from "../cart/Context";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 
 export const CardList = ({ burgerList }) => {
+
   const [cardListData, setCardListData] = useState([]);
+
+  
 
   useEffect(() => {
     const endPoint =
@@ -21,13 +24,19 @@ export const CardList = ({ burgerList }) => {
   return (
     <div>
       <div className={styles.cardListContainer}>
-        {cardListData.map(({ id, description, imageUrl, price, title }) => (
+        {/* {cardListData.map(({ id, description, imageUrl, price, title }) => (
           <component.ProductCard
             id={id}
             description={description}
             imageUrl={imageUrl}
             price={price}
             title={title}
+          />
+        ))} */}
+        {cardListData.map(item => (
+          <component.ProductCard
+            key={item.id}
+            item={item}
           />
         ))}
       </div>

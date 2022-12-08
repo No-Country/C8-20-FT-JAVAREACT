@@ -3,12 +3,19 @@ import styles from "./Header.module.css";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import "animate.css";
-import cart from "../../assets/images/yellow-cart.svg";
+import cart from "../../assets/images/cart.png";
+import Cart from "../cart/Cart";
+import {useState, useContext} from 'react';
+import {Context} from '../cart/Context';
+import Search from '../inputSearch/InputGet';
 // import { Search } from "../Search/Search";
 // import { auth, logout } from "../../firebase";
 // import { useAuthState } from "react-firebase-hooks/auth";
 
 export const Header = () => {
+
+  const{quantity ,qty} = useContext(Context)
+  
   const token = sessionStorage.getItem("token");
   const swalert = withReactContent(Swal);
 
@@ -53,6 +60,8 @@ export const Header = () => {
     if (e.target.id === "headerLogin") navigate("/login");
   };
 
+  const [carting, setCarting] = useState(false)
+
   return (
     <nav>
       <div className={styles.headerDiv}>
@@ -68,13 +77,21 @@ export const Header = () => {
         </Link>
         <Link to="/" onClick={handleClick} id="headerCart">
           <div>
-            <button className={styles.fabCart}>
+          {carting && <Cart setCarting={setCarting} />}
+            <button className={styles.fabCart} onClick={()=>{setCarting(true)}}>
+            <div className="Qty">
+              <p>{quantity(qty)}</p>   
+              {/* clases en index.css provisoriamente */}
+            </div>
               <img
                 className={styles.iconCartImage}
                 src={cart}
                 alt="Cart icon"
               ></img>
             </button>
+          </div>
+          <div className="searchContainer">
+            <Search />
           </div>
         </Link>
 
@@ -85,6 +102,7 @@ export const Header = () => {
             <Search />
           </div> */}
       </div>
+      
     </nav>
   );
 };

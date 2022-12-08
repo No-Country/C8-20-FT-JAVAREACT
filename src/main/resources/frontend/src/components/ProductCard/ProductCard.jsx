@@ -4,10 +4,11 @@ import { motion } from "framer-motion";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import "animate.css";
-import { useEffect, useState } from "react";
+import {useEffect, useState, useContext} from 'react';
+import {Context} from '../cart/Context';
 
 const swalert = withReactContent(Swal);
-export const ProductCard = ({ id, description, imageUrl, price, title }) => {
+export const ProductCard = ({item}) => {
   const animatedEntrances = [
     " animate__flipInX",
     " animate__rotateIn",
@@ -37,6 +38,13 @@ export const ProductCard = ({ id, description, imageUrl, price, title }) => {
   const [scale2, setScale2] = useState(0.1);
   const [valueY1, setvalueY1] = useState(0);
   const [valueY2, setvalueY2] = useState(0);
+
+  const{isInCart, addItem, qty} = useContext(Context)
+
+  const onAdd = () =>{
+    isInCart(item.id)
+    addItem(item, qty)
+}
 
   useEffect(() => {
     console.log("isOpen > ", isOpen);
@@ -93,21 +101,21 @@ export const ProductCard = ({ id, description, imageUrl, price, title }) => {
           <img
             onClick={() => setIsopen(!isOpen)}
             className={styles.cardImage}
-            src={imageUrl}
-            alt={title}
+            src={item.imageUrl}
+            alt={item.title}
           ></img>
         </motion.div>
         <motion.div
           animate={{ y: valueY2, scale: scale2 }}
           className={styles.detailContainer}
         >
-          <p>{description}</p>
+          <p>{item.description}</p>
         </motion.div>
       </div>
       <div id="solidContainer" className={styles.solidContainer}>
-        <div className={styles.burgerName}>{title}</div>
-        <div className={styles.burgerPrice}>${price}</div>
-        <button className={styles.addButton} onClick={handleClick}>
+        <div className={styles.burgerName}>{item.title}</div>
+        <div className={styles.burgerPrice}>${item.price}</div>
+        <button className={styles.addButton} onClick={()=>{onAdd()}}>
           Añadir al carrito
         </button>
       </div>

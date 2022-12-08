@@ -31,3 +31,27 @@ a:hover{
   color: #f9f9ae;
 
 }
+
+.Qty{
+  display: flex;
+  background-color: rgb(255, 225, 0);
+  border: solid white;
+  border-radius: 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: -0.3rem 0 0 1.2rem;
+  color: white;
+  position: absolute;
+}
+
+.Qty p{
+  color: rgb(255, 255, 255);
+  margin: -0.1rem 0 0 0.25rem;
+  font-size: 0.9rem;
+}
+
+.searchContainer{
+  position: absolute;
+  margin: -2.2rem 0 0 10rem;
+}
+/* a */
