@@ -13,7 +13,7 @@
     "framer-motion": "^7.6.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.4",
+    "react-router-dom": "^6.4.5",
     "react-scripts": "5.0.1",
     "react-tiny-fab": "^4.0.4",
     "sass": "^1.56.1",
