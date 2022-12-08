@@ -84,9 +84,9 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 3vh;
+    margin-top: 0vh;
     align-items: center;
-
+padding-top: 5vh;
     /* border-style: solid;
     border-width: 1px;
     border-color: rgb(144, 141, 141); */
@@ -98,6 +98,7 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    height: 90vh;
     align-items: center;
     background: rgb(37,37,37);
     background: linear-gradient(180deg, rgba(37,37,37,0.1741071428571429) 17%, rgba(0,0,0,0.25253851540616246) 34%, rgba(0,0,0,0.4234068627450981) 54%, rgba(0,0,0,0.5410539215686274) 81%, rgba(0,0,0,0.6558998599439776) 91%, rgba(0,0,0,0.8715861344537815) 96%);    
@@ -187,7 +188,7 @@
         width: 15vw;    
         background: transparent;
         position: absolute;    
-        top: 28vw;
+        top: 35vw;
         right: 1vw;
         z-index: 1;
         transition: 0.2s;
