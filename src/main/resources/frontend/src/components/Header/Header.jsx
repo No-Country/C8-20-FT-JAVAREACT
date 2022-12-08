@@ -5,18 +5,25 @@ import withReactContent from "sweetalert2-react-content";
 import "animate.css";
 import cart from "../../assets/images/cart.png";
 import Cart from "../cart/Cart";
-import {useState, useContext} from 'react';
-import {Context} from '../cart/Context';
-import Search from '../inputSearch/InputGet';
+import { useState, useContext } from "react";
+import { Context } from "../cart/Context";
+import Search from "../inputSearch/InputGet";
+import { useEffect } from "react";
 // import { Search } from "../Search/Search";
 // import { auth, logout } from "../../firebase";
 // import { useAuthState } from "react-firebase-hooks/auth";
 
 export const Header = () => {
+  const { quantity, qty } = useContext(Context);
+  const [isLoged, setIsLoged] = useState(false);
 
-  const{quantity ,qty} = useContext(Context)
-  
   const token = sessionStorage.getItem("token");
+  useEffect(() => {
+    if (token) {
+      setIsLoged(true);
+    }
+  }, [token]);
+
   const swalert = withReactContent(Swal);
 
   // console.log("token", token);
@@ -60,41 +67,49 @@ export const Header = () => {
     if (e.target.id === "headerLogin") navigate("/login");
   };
 
-  const [carting, setCarting] = useState(false)
+  const [carting, setCarting] = useState(false);
 
   return (
     <nav>
       <div className={styles.headerDiv}>
-        <a href="/" className={styles.headerTitle} id="netflix">
+        <Link to="/">
           <div className={styles.titleContainer}>
             <span id="titleLeft">VILLAIN</span>
             <span id="titleRight">BURGER</span>
           </div>
-        </a>
-        <Link to="/">Home</Link>
-        <Link to="/login" onClick={handleClick} id="headerLogin">
-          Login
         </Link>
+        {isLoged ? (
+          <div className={styles.userName}>Brian Nieto</div>
+        ) : (
+          <Link to="/login" onClick={handleClick} id="headerLogin">
+            Login
+          </Link>
+        )}
         <Link to="/" onClick={handleClick} id="headerCart">
           <div>
-          {carting && <Cart setCarting={setCarting} />}
-          <div className="containerQty">
-          <button className={styles.fabCart} onClick={()=>{setCarting(true)}}>
-              <img
-                className={styles.iconCartImage}
-                src={cart}
-                alt="Cart icon"
-              ></img>
-              <div className="Qty">
-              <p>{quantity(qty)}</p>   
-              {/* clases en index.css provisoriamente */}
+            {carting && <Cart setCarting={setCarting} />}
+            <div className="containerQty">
+              <button
+                className={styles.fabCart}
+                onClick={() => {
+                  setCarting(true);
+                }}
+              >
+                <img
+                  className={styles.iconCartImage}
+                  src={cart}
+                  alt="Cart icon"
+                ></img>
+                <div className="Qty">
+                  <p>{quantity(qty)}</p>
+                  {/* clases en index.css provisoriamente */}
+                </div>
+              </button>
             </div>
-            </button>
           </div>
-          </div>
-          <div className="searchContainer">
+          {/* <div className="searchContainer">
             <Search />
-          </div>
+          </div> */}
         </Link>
 
         {/* <Link to="/" onClick={logout}>
@@ -104,7 +119,6 @@ export const Header = () => {
             <Search />
           </div> */}
       </div>
-      
     </nav>
   );
 };

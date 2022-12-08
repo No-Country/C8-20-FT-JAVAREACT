@@ -96,23 +96,52 @@ export const Login = () => {
       console.log("Debes ingresar un email válido");
       return;
     }
-
+    if (email === "briannieto@gmail.com" && password === "1234") {
+      const { token } = "Brian Nieto";
+      sessionStorage.setItem("token", token);
+      navigate("/");
+    } else {
+      swalert.fire();
+      swalert.fire({
+        customClass: {
+          popup: [styles.swalertPopup],
+          title: [styles.swalertTitle],
+          htmlContainer: [styles.swalertHtml],
+          actions: [styles.swalertActions],
+          confirmButton: [styles.swalertConfirmButton],
+        },
+        showClass: {
+          popup: `
+          animate__animated
+          animate__zoomIn
+          animate__faster
+        `,
+        },
+        hideClass: {
+          popup: "animate__animated animate__flipOutX",
+        },
+        title: "Oops",
+        text: "Credenciales incorrectas",
+        backdrop: false,
+        buttonsStyling: false,
+      });
+    }
     // logInWithEmailAndPassword(email, password);
 
     // if (!user) registerWithEmailAndPassword(email, password);
     // else logInWithEmailAndPassword(email, password);
 
-    axios
-      .post("https://c8-20-ft-backend-production.up.railway.app/login", {
-        email,
-        password,
-      })
-      .then((res) => {
-        console.log(res);
-        const { token } = res.data;
-        sessionStorage.setItem("token", token);
-        navigate("/listado");
-      });
+    // axios
+    //   .post("https://c8-20-ft-backend-production.up.railway.app/login", {
+    //     email,
+    //     password,
+    //   })
+    //   .then((res) => {
+    //     console.log(res);
+    //     const { token } = res.data;
+    //     sessionStorage.setItem("token", token);
+    //     navigate("/listado");
+    //   });
   };
 
   return (

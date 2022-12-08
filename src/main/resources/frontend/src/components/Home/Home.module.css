@@ -32,9 +32,9 @@
     width: 15vw;    
     background: transparent;
     position: absolute;    
-    top: 1vw;
+    top: 5vw;
     right: 3vw;
-    z-index: 2;
+    z-index: 1;
     transition: 0.2s;
     /* background-color: rgb(48, 48, 48);
     border-style: solid;
@@ -84,6 +84,7 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 3vh;
     align-items: center;
 
     /* border-style: solid;
@@ -186,9 +187,9 @@
         width: 15vw;    
         background: transparent;
         position: absolute;    
-        top: 18vw;
+        top: 28vw;
         right: 1vw;
-        z-index: 2;
+        z-index: 1;
         transition: 0.2s;
         /* background-color: rgb(48, 48, 48);
         border-style: solid;
