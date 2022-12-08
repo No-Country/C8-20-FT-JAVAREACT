@@ -58,7 +58,7 @@ const MyProvider = ({children}) =>{
 
     const total = () =>{
         if(get){
-            return get.reduce((acc, product) => acc + product.price * product.qty, 0)
+            return get.reduce((acc, product) => acc + Math.round(product.price * product.qty), 0)
         }
     }
 

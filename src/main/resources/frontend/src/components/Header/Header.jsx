@@ -78,17 +78,19 @@ export const Header = () => {
         <Link to="/" onClick={handleClick} id="headerCart">
           <div>
           {carting && <Cart setCarting={setCarting} />}
-            <button className={styles.fabCart} onClick={()=>{setCarting(true)}}>
-            <div className="Qty">
-              <p>{quantity(qty)}</p>   
-              {/* clases en index.css provisoriamente */}
-            </div>
+          <div className="containerQty">
+          <button className={styles.fabCart} onClick={()=>{setCarting(true)}}>
               <img
                 className={styles.iconCartImage}
                 src={cart}
                 alt="Cart icon"
               ></img>
+              <div className="Qty">
+              <p>{quantity(qty)}</p>   
+              {/* clases en index.css provisoriamente */}
+            </div>
             </button>
+          </div>
           </div>
           <div className="searchContainer">
             <Search />
