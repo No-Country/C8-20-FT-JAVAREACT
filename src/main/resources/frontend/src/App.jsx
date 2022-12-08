@@ -39,7 +39,7 @@ function App() {
                 src={burgerIcon}
                 alt="burgerIcon"
               ></img>
-            </div> */}
+            </divv> */}
             <div className={styles.titleContainer}>
               <component.Title />
             </div>
