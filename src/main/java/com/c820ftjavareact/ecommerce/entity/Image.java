@@ -22,6 +22,9 @@ public class Image {
     private String imagenUrl;
     private String imagenId;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "product_id", nullable = false)
+    private Product product;
 
     public Image(String original_filename, String url, String public_id) {
     }

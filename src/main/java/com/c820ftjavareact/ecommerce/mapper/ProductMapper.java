@@ -15,7 +15,7 @@ public class ProductMapper {
         product.setTitle(productDTO.getTitle());
         product.setDescription(productDTO.getDescription());
         product.setPrice(productDTO.getPrice());
-        product.setImageUrl(productDTO.getImageUrl());
+      //  product.setImageUrl(productDTO.getImageUrl());
         product.setNote(productDTO.getNote());
         product.setStock(productDTO.getStock());
         return product;
@@ -26,7 +26,7 @@ public class ProductMapper {
         productDTO.setTitle(product.getTitle());
         productDTO.setDescription(product.getDescription());
         productDTO.setPrice(product.getPrice());
-        productDTO.setImageUrl(product.getImageUrl());
+      //  productDTO.setImageUrl(product.getImageUrl());
         productDTO.setNote(product.getNote());
         productDTO.setStock(product.getStock());
 
@@ -45,7 +45,7 @@ public class ProductMapper {
 
     public ProductBasicDTO productEntity2DTOBasic(Product product) {
         ProductBasicDTO productBasicDTO = new ProductBasicDTO();
-        productBasicDTO.setImageUrl(product.getImageUrl());
+     //   productBasicDTO.setImageUrl(product.getImageUrl());
         productBasicDTO.setTitle(product.getTitle());
         productBasicDTO.setPrice(product.getPrice());
         return productBasicDTO;

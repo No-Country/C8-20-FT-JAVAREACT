@@ -1,0 +1,111 @@
+[33mcommit 6ea7fd25617ced3b23aedf4fb1f17891233db6a2[m[33m ([m[1;36mHEAD -> [m[1;32mnew_cloudinary_fetch[m[33m, [m[1;31morigin/cloudinary_product_maite[m[33m, [m[1;32mcloudinary_product_maite[m[33m)[m
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Wed Dec 7 19:24:59 2022 -0300
+
+    delete comment before
+
+[33mcommit dda06d9fbfc3047d70c026454bed6163294aeb8d[m
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Tue Dec 6 21:05:23 2022 -0300
+
+    add repo,entity,service-cloudinary
+
+[33mcommit 9232af47ead2141ab649e6d9648c2d96199d8a50[m[33m ([m[1;32mclo_maite_pr[m[33m)[m
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Thu Dec 1 11:57:45 2022 -0300
+
+    add_cloudinary
+
+[33mcommit 3c73f8983560f293b2a9c320e1c4289958c17a0a[m[33m ([m[1;31morigin/new_branch_uno_product_backend[m[33m, [m[1;32mnew_branch_uno_product_backend[m[33m)[m
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Thu Dec 1 11:44:12 2022 -0300
+
+    change_cloudinary
+
+[33mcommit 1947a2b31323694f10cdd62aba2a5485336b1079[m
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Sat Nov 26 03:40:11 2022 -0300
+
+    add cloudinary pom main
+
+[33mcommit 892f65cff42f0137a96a9b63cf1003835a7c0592[m
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Fri Nov 25 20:10:04 2022 -0300
+
+    add--stock
+
+[33mcommit 8e7fe2086b339f3b3470c1ddd76b197e8492eaf3[m
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Mon Nov 21 18:14:33 2022 -0300
+
+    Crud-ById,ListProduct
+
+[33mcommit eff3c97fa43310d9ce0ca8535eaeb3f00b56bf87[m[33m ([m[1;32mproduct-rama-1[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 3028d47 89558e4
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Wed Nov 16 00:18:48 2022 -0300
+
+    Merge branch 'main' of https://github.com/No-Country/C8-20-FT-JAVAREACT into main
+
+[33mcommit 3028d4780f3d61935dbca94e9673d5a2a3c664bc[m
+Author: maite5 <maite_1humano@outlook.es>
+Date:   Wed Nov 16 00:06:22 2022 -0300
+
+    create and update products
+
+[33mcommit 89558e49252144fdb0282a2e422e1cddb4c30954[m
+Merge: eb79374 4f4baaf
+Author: Jose Santiago <rockbotica@gmail.com>
+Date:   Tue Nov 15 13:06:11 2022 -0600
+
+    Merge pull request #4 from No-Country/jose_feature_product-card
+    
+    React project created
+
+[33mcommit 4f4baafc33a585a46c16a3a1ecf840399442a9e5[m
+Author: Huichoman <rockbotica@gmail.com>
+Date:   Tue Nov 15 13:02:17 2022 -0600
+
+    React project created
+
+[33mcommit eb793748d301cbc5e32408d4cae191725c563c33[m
+Merge: 6f7256f 7c1f69b
+Author: Yhanahi Rosenthal <99359441+Yhanahi-Rosenthal@users.noreply.github.com>
+Date:   Mon Nov 14 19:54:23 2022 -0300
+
+    Merge pull request #3 from No-Country/properties-frontend
+    
+    first branch
+
+[33mcommit 7c1f69bdc7761a3d358e87a62cb9f232d38f1fd5[m
+Author: unknown <Yhanai@hotmail.com>
+Date:   Mon Nov 14 19:46:58 2022 -0300
+
+    first branch
+
+[33mcommit 6f7256fdad8f974cddaa9c1561c2bb95cb1b441c[m
+Merge: e367286 f51cd70
+Author: Brian Nieto <52222767+BrianNieto@users.noreply.github.com>
+Date:   Mon Nov 14 19:13:18 2022 -0300
+
+    Merge pull request #2 from No-Country/01-Register_User
+    
+    added entities
+
+[33mcommit f51cd7022d180db488323a1184172bcb29bb82ad[m
+Author: Brian Nieto <nietobrian435@gmail.com>
+Date:   Mon Nov 14 19:09:40 2022 -0300
+
+    added some class
+
+[33mcommit f4eedbc50a7bb5d87390426cd71dc43cb8730f6e[m
+Author: Brian Nieto <nietobrian435@gmail.com>
+Date:   Mon Nov 14 18:12:13 2022 -0300
+
+    added mysql dependecy
+
+[33mcommit e3672869aeffa2d1df182e66276e7fd6075729a3[m
+Author: Brian Nieto <nietobrian435@gmail.com>
+Date:   Fri Nov 11 17:49:14 2022 -0300
+
+    initial commit
